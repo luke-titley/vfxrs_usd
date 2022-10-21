@@ -7,4 +7,13 @@ Make sure you have the submodules checked out.
 
 > git submodule update --init
 
-Once the build is complete you will have a docker image that contains babble and all of its dependencies.
+# Run
+
+> bash ./run.sh
+
+This will put you in a terminal.
+> cd usd-rs
+> cargo build
+
+This will build babble as a dependency and also build the usd-rs bindings.
+
